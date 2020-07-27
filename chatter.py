@@ -2,8 +2,6 @@ from fbchat.models import Message
 from fbchat import log, Client
 
 
-# username = "dito.gulua@mail.ru"
-# password = "ZolokosTi!04"
 
 # client = Client(username, password)
 
@@ -53,12 +51,12 @@ class Facebook():
 
 
 def main():
-	a = Facebook("dito.gulua@mail.ru", "ZolokosTi!04")
+	a = Facebook()
 	a.autoReply()
 	
 
 if __name__ == '__main__':
-	client = EchoBot("dito.gulua@mail.ru", "ZolokosTi!04")
+	client = EchoBot()
 	client.listen()
 
 
